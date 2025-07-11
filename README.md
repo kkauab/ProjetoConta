@@ -1,48 +1,36 @@
 # ProjetoConta
 
-Projeto Conta Bancária em C#
-Um projeto de console simples para simular operações básicas de uma conta bancária, desenvolvido em C#.
+ProjetoConta
+Este projeto em C# representa a estrutura inicial de um sistema bancário simples, com foco na modelagem de contas bancárias.
 
-📝 Descrição
-Este é um projeto de aprendizado para praticar os conceitos de Programação Orientada a Objetos (POO) em C#, como classes, propriedades e métodos. O objetivo é criar um sistema onde o usuário possa gerenciar uma conta bancária, realizando depósitos e saques.
+Estrutura do Projeto
+ContaBancaria.cs
+Contém a classe ContaBancaria, que representa uma conta bancária com os seguintes membros:
 
-🚀 Estado Atual
-Atualmente, o projeto possui a estrutura inicial:
+Numero: número da conta (somente leitura).
 
-ContaBancaria.cs: Uma classe que define a estrutura de uma conta bancária com as seguintes propriedades:
+Titular: nome do titular (pode ser modificado).
 
-Numero (int): O número da conta.
+Saldo: saldo da conta (somente leitura).
 
-Titular (string): O nome do titular da conta.
+Program.cs
+Arquivo principal com a estrutura do método Main, ponto de entrada da aplicação. Ainda não possui lógica implementada.
 
-Saldo (double): O saldo disponível na conta.
+Possibilidades de Expansão
+Este projeto pode ser estendido com:
 
-Program.cs: O ponto de entrada da aplicação, com o método Main ainda vazio, pronto para receber a lógica de interação com o usuário.
+Métodos para depósito, saque e transferência.
 
-🛠️ Próximos Passos (To-Do)
-Para que o projeto se torne funcional, as seguintes implementações são necessárias:
+Validações de saldo e limites.
 
-Criar Construtores na Classe ContaBancaria:
+Interface com o usuário via console ou interface gráfica.
 
-Um construtor que receba o número da conta e o titular.
+Armazenamento de dados em banco de dados ou arquivos.
 
-Um segundo construtor que também inclua um depósito inicial.
+Requisitos
+.NET SDK instalado
 
-Adicionar Métodos à Classe ContaBancaria:
-
-Criar um método Depositar(double quantia) para adicionar valor ao saldo.
-
-Criar um método Sacar(double quantia) para retirar valor do saldo, com uma regra de negócio (ex: cobrança de uma taxa de R$ 5,00 por saque).
-
-Sobrescrever o método ToString() para exibir os dados da conta de forma formatada.
-
-Implementar a Lógica no Program.cs:
-
-Solicitar ao usuário os dados da conta (número, titular).
-
-Perguntar se haverá um depósito inicial.
-
-Instanciar o objeto ContaBancaria.
+IDE compatível com C# (ex: Visual Studio, VS Code)
 
 Exibir os dados da conta.
 
