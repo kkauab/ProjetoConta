@@ -7,11 +7,11 @@ Estrutura do Projeto
 ContaBancaria.cs
 Contém a classe ContaBancaria, que representa uma conta bancária com os seguintes membros:
 
-Numero: número da conta (somente leitura).
+Numero: número da conta.
 
-Titular: nome do titular (pode ser modificado).
+Titular: nome do titular.
 
-Saldo: saldo da conta (somente leitura).
+Saldo: saldo da conta.
 
 Program.cs
 Arquivo principal com a estrutura do método Main, ponto de entrada da aplicação. Ainda não possui lógica implementada.
