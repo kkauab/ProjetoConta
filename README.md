@@ -29,9 +29,3 @@ Armazenamento de dados em banco de dados ou arquivos.
 
 Requisitos
 .NET SDK instalado
-
-IDE compatível com C# (ex: Visual Studio, VS Code)
-
-Exibir os dados da conta.
-
-Criar um menu para que o usuário possa escolher entre Depositar, Sacar e Sair.
